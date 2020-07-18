@@ -32,7 +32,7 @@ def find_a(array)
 end
   
 def sum_array(array)
-  (array[0]..array[-1]).reduce(:+)
+  array.reduce(:+)
 end
 
 def add_s(array)
