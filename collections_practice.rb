@@ -41,4 +41,6 @@ def add_s(array)
       return str 
     else 
       str[-1] = "s"
+    end 
+  end 
 end 
