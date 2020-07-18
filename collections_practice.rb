@@ -29,7 +29,7 @@ end
 
 def find_a(array)
   array.find do |item|
-    if item[0] == "a" 
+    if item[0] = "a" 
     end 
   end 
 end
