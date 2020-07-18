@@ -36,8 +36,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_arr = 
-
+  
+  # if it is array[1] do not manipulate  
+  # use collect to solve 
 end 
   # def find_a(array)
   # array.find {|item| item.starts_with? "a"}
