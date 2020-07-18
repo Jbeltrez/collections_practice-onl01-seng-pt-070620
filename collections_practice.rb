@@ -62,8 +62,15 @@ def find_a
 end 
 
 def sum_array 
-  
+  # Question 8
+  describe '#sum_array' do
+    #for a bonus, look up the `.inject` method to get this test passing
+    it 'sum all the numbers in the following array' do
+      expect(sum_array([11,4,7,8,9,100,134])).to eq(273)
+    end
+  end
 end 
 
 def add_s
+  
 end 
