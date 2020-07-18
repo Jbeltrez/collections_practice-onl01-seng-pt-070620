@@ -36,11 +36,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect.each_with_index do |str|
-    if str == str[1]
-      return str 
-    else 
-      str[-1] = "s"
-    end 
+  array.collect.each_with_index do |str, index|
+    if index != 1 str << "s"
+    end
   end 
 end 
