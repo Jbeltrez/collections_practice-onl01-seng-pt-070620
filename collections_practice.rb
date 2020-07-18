@@ -17,7 +17,12 @@ def sort_array_desc
 end 
 
 def sort_array_char_count
-  
+  # Question 3
+  describe '#sort_array_char_count' do
+    it 'should return an array in ascending order sorted by the number of characters in the string' do
+      expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
+    end
+  end
 end 
 
 def swap_elements 
