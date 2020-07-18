@@ -35,3 +35,7 @@ def find_a(array)
   end 
 end
   
+  def find_a(array)
+  array.find {|item| item.starts_with? "a"}
+  end 
+end
