@@ -1,4 +1,4 @@
-def sort-array_asc
+def sort-array_asc(array)
   # Question 1
   describe '#sort_array_asc' do
     it 'should return an array sorted in ascending order' do
