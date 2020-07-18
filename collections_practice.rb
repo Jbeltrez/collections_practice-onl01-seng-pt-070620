@@ -23,7 +23,7 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  ounter = 0 
+  array.each do |item, ounter = 0 
   while counter < array.length 
   yield (array[counter])
   
