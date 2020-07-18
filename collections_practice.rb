@@ -36,7 +36,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  new_arr = 
 
 end 
   # def find_a(array)
