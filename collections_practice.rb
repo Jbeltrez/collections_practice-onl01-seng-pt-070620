@@ -30,7 +30,7 @@ end
 def find_a(array)
   array.find do |item|
     if item.start_with? = "a" 
-      true 
+      return true
     end 
   end 
 end
