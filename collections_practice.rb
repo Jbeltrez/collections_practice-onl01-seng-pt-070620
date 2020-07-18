@@ -36,7 +36,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |str|
+  array.collect.each_with_index do |str|
     if str == str[1]
       return str 
     else 
