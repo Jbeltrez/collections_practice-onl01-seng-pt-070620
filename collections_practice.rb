@@ -10,7 +10,7 @@ end
 
 def sort_array_char_count
   array.sort do |a, b|
-  a <=> b
+  a <=> b # 
  end
 end 
   # Question 3
