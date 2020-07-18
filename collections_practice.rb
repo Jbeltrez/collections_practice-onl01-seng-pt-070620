@@ -8,10 +8,16 @@ def sort-array_asc
 end 
 
 def sort_array_desc 
-  
+  # Question 2
+  describe '#sort_array_desc' do
+    it 'should return an array sorted in descending order' do
+      expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
+    end
+  end
 end 
 
 def sort_array_char_count
+  
 end 
 
 def swap_elements 
