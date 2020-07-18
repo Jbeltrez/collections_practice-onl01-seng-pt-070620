@@ -33,6 +33,13 @@ def find_a(array)
   end 
 end
   
+def sum_array(array)
+  
+end
+
+def add_s(array)
+
+end 
   # def find_a(array)
   # array.find {|item| item.starts_with? "a"}
   # end 
