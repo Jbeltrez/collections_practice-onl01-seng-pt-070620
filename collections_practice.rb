@@ -5,7 +5,11 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc 
-  array.sort! do # Question 2
+  array.sort! do {|b,a| b <=>a}
+end 
+
+
+# Question 2
   describe '#sort_array_desc' do
     it 'should return an array sorted in descending order' do
       expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
