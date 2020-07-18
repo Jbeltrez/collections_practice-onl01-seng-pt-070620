@@ -36,7 +36,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  .each_with_index
+  array.collect 
+    if
   # if it is array[1] do not manipulate  
   # use collect to solve 
 end 
