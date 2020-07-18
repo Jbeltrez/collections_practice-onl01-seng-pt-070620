@@ -22,8 +22,14 @@ def reverse_array(array)
 
 end 
 
-def kesha_maker 
+def kesha_maker(array)
+  ounter = 0 
+  while counter < array.length 
+  yield (array[counter])
   
+  counter += 1
+  end
+  array
   # Question 6
   describe '#kesha_maker' do
     # DO NOT USE .collect or .map. use .each to build a new array, like in the "my_each" lab!
