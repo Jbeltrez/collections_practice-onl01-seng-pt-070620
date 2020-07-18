@@ -39,6 +39,8 @@ def add_s(array)
   array.collect.each_with_index do |str, index|
     if index != 1 
       str << "s"
+    else 
+      return str
     end
   end 
 end 
