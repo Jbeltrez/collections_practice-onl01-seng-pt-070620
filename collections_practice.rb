@@ -53,10 +53,16 @@ def kesha_maker
 end 
 
 def find_a
-  
+  # Question 7
+  describe '#find_a' do
+    it 'find all words that begin with "a" in the following array' do
+      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+    end
+  end
 end 
 
 def sum_array 
+  
 end 
 
 def add_s
